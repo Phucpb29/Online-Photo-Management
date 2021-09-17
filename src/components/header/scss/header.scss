@@ -1,0 +1,32 @@
+.container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .col {
+            padding: 15px 0;
+
+            .header__link {
+                font-size: 1.2rem;
+
+                &:hover {
+                    color: #205AA7;
+                }
+            }
+
+            .header__title {
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+
+            .header__link-active {
+                color: #205AA7;
+            }
+        }
+    }
+}

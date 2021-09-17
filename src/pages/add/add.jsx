@@ -1,13 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Banner from '../../components/banner/banner';
+import './scss/add.scss';
 
 AddPage.propTypes = {};
 
 function AddPage(props) {
 	return (
-		<div>
-			<p>Đây là trang add</p>
-		</div>
+		<>
+			<Banner title="Đây là trang thêm hình" />
+			<div className="photo-wrapper">
+				<p>Thêm</p>
+			</div>
+		</>
 	);
 }
 

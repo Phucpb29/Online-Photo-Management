@@ -1,12 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import Banner from '../../components/banner/banner';
 
 MainPage.propTypes = {};
 
 function MainPage(props) {
 	return (
 		<div>
-			<p>Đây là trang main</p>
+			<Banner title="Đây là trang chủ" />
+			<Link to="/photos/add">Add new photo</Link>
 		</div>
 	);
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Banner from '../../components/banner/banner';
 
 UpdatePage.propTypes = {};
 
 function UpdatePage(props) {
 	return (
 		<div>
-			<p>Đây là trang update</p>
+			<Banner title="Đây là trang update hình" />
 		</div>
 	);
 }
