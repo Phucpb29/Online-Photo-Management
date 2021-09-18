@@ -1,6 +1,6 @@
+import Error from 'components/error/error';
 import React from 'react';
 import { Route, Switch, useRouteMatch } from 'react-router-dom';
-import Error from '../components/error/error';
 import AddPage from './add/add';
 import UpdatePage from './edit/edit';
 import MainPage from './main/main';

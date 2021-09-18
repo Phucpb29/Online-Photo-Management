@@ -1,6 +1,6 @@
+import Banner from 'components/banner/banner';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Banner from '../../components/banner/banner';
 
 MainPage.propTypes = {};
 
